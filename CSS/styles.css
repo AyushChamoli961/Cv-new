@@ -65,6 +65,7 @@ h3{
 .bottom-container{
     margin: 50px auto 0 auto;
     background-color: #66BFBF;
+    padding: 50px 0 20px;
     
 }
 .pro{
@@ -128,13 +129,15 @@ h3{
     background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  .footer-link{
+  a{
       line-height: 3;
       padding:30px;
+      font-family: 'Roboto Slab', serif;
+      text-decoration: none;
   }
   .last-line{
-    margin-bottom: 50px;
-    padding: 30px;
+    margin-bottom: 0;
+    color: #eaf6f6;
  }
 
  .intro{
@@ -142,7 +145,10 @@ h3{
      margin: auto;
      padding-bottom: 50px;
  }
-.message{
+ .message{
      width: 40%;
-     margin: 100px auto 100px auto;
+     margin: 40px auto 60px auto;
+ }
+ a:hover{
+     color: #eaf6f6;
  }
